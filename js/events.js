@@ -1,8 +1,12 @@
 //define functions here
-$('p').on("click", function(){
-    //action you want taken
-    alert('Hey!')
-});
+function getIt() {
+  $('p').on("click", function(){
+      //action you want taken
+      alert('Hey!')
+  });
+  
+}
+
 
 
 
