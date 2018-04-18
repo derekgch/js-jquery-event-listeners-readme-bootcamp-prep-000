@@ -8,9 +8,8 @@ function getIt() {
 }
 
 function frameIt() {
-  $('p').on("click", function(){
-      //action you want taken
-      alert('Hey!')
+  $('img').on('load', function(){
+    //actions you want to happen
   });
 
 }
@@ -26,9 +25,10 @@ function submitIt() {
 
 
 function pressIt() {
-  $('p').on("click", function(){
-      //action you want taken
-      alert('Hey!')
+  $(document).on('keydown', function(key) {
+    if(key.which == 71){
+        alert('g was pressed');
+    }
   });
 
 }
@@ -40,5 +40,6 @@ function pressIt() {
 $(document).ready(function(){
 
 // call functions here
+
 
 });
