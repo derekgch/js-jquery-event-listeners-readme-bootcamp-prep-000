@@ -7,6 +7,33 @@ function getIt() {
 
 }
 
+function frameIt() {
+  $('p').on("click", function(){
+      //action you want taken
+      alert('Hey!')
+  });
+
+}
+
+
+function submitIt() {
+  $('p').on("click", function(){
+      //action you want taken
+      alert('Hey!')
+  });
+
+}
+
+
+function pressIt() {
+  $('p').on("click", function(){
+      //action you want taken
+      alert('Hey!')
+  });
+
+}
+
+
 
 
 
